@@ -8,7 +8,7 @@
 
 ## Create a NATS docker
     docker build -t nats-image .
-    docker run -d --name nats --network nats -p 4222:4222 -p 8222:8222 -p 443:443 nats
+    docker run -d --name nats --network nats -p 4222:4222 -p 8222:8222 -p 443:443 nats-image
 
 
 ## Run backend
